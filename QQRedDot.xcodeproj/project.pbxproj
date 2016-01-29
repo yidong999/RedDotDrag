@@ -15,6 +15,8 @@
 		290A8A841C3F504100536981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290A8A821C3F504100536981 /* LaunchScreen.storyboard */; };
 		290A8A8F1C3F504100536981 /* QQRedDotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290A8A8E1C3F504100536981 /* QQRedDotTests.m */; };
 		290A8A9A1C3F504100536981 /* QQRedDotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290A8A991C3F504100536981 /* QQRedDotUITests.m */; };
+		290A8AA81C3F512700536981 /* QQScreenShot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 290A8AA71C3F512700536981 /* QQScreenShot.jpg */; };
+		290A8AC71C3F90F400536981 /* RedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 290A8AC61C3F90F400536981 /* RedDotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		290A8A951C3F504100536981 /* QQRedDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQRedDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		290A8A991C3F504100536981 /* QQRedDotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQRedDotUITests.m; sourceTree = "<group>"; };
 		290A8A9B1C3F504100536981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290A8AA71C3F512700536981 /* QQScreenShot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QQScreenShot.jpg; sourceTree = "<group>"; };
+		290A8AC51C3F90F400536981 /* RedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedDotView.h; sourceTree = "<group>"; };
+		290A8AC61C3F90F400536981 /* RedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedDotView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		290A8A731C3F504000536981 /* QQRedDot */ = {
 			isa = PBXGroup;
 			children = (
+				290A8AA71C3F512700536981 /* QQScreenShot.jpg */,
 				290A8A771C3F504100536981 /* AppDelegate.h */,
 				290A8A781C3F504100536981 /* AppDelegate.m */,
 				290A8A7A1C3F504100536981 /* ViewController.h */,
 				290A8A7B1C3F504100536981 /* ViewController.m */,
+				290A8AC51C3F90F400536981 /* RedDotView.h */,
+				290A8AC61C3F90F400536981 /* RedDotView.m */,
 				290A8A7D1C3F504100536981 /* Main.storyboard */,
 				290A8A801C3F504100536981 /* Assets.xcassets */,
 				290A8A821C3F504100536981 /* LaunchScreen.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290A8AA81C3F512700536981 /* QQScreenShot.jpg in Resources */,
 				290A8A841C3F504100536981 /* LaunchScreen.storyboard in Resources */,
 				290A8A811C3F504100536981 /* Assets.xcassets in Resources */,
 				290A8A7F1C3F504100536981 /* Main.storyboard in Resources */,
@@ -272,6 +281,7 @@
 			files = (
 				290A8A7C1C3F504100536981 /* ViewController.m in Sources */,
 				290A8A791C3F504100536981 /* AppDelegate.m in Sources */,
+				290A8AC71C3F90F400536981 /* RedDotView.m in Sources */,
 				290A8A761C3F504100536981 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +508,7 @@
 				290A8AA01C3F504100536981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290A8AA11C3F504100536981 /* Build configuration list for PBXNativeTarget "QQRedDotTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				290A8AA31C3F504100536981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290A8AA41C3F504100536981 /* Build configuration list for PBXNativeTarget "QQRedDotUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				290A8AA61C3F504100536981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
